@@ -1,0 +1,132 @@
+html, body {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 970px;
+}
+
+/* Header & Jumbotron */
+.jumbotron {
+  background-color: #000000;
+  margin-bottom: 0;
+}
+
+.right {
+  float: right;
+}
+
+.right li {
+	list-style-type: none;
+  display: inline;
+  padding: 8px 12px;
+  color: white;
+}
+
+.btn-default {
+  background: transparent;
+  color: #0393FF;
+  border: 1px solid #0393FF;
+  border-radius: 2px;
+  padding: 8px 20px;
+}
+
+.btn-default:hover {
+  background: #0393FF;
+  border: 1px solid #0393FF;
+  color: white;
+  display: inline-block;
+}
+
+/* Main Heading in Jumbotron & Search Form */
+.main {
+  text-align: center;
+}
+
+.main h1 {
+  color: white;
+  font-weight: 300;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+form {
+  margin-top: 80px;
+}
+
+#search {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #0393FF;
+  font-size: 18px;
+  width: 350px;
+}
+
+/* Supporting & Image Gallery */
+.supporting {
+  text-align: center;
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png) repeat;
+}
+
+h2 {
+  color: #0393FF;
+  font-weight: 300;
+  padding-top: 80px;
+}
+
+p {
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 40px;
+  font-size: 16px;
+}
+
+.thumbnail {
+  background: transparent;
+  border: none;
+}
+
+/* Feature */
+.feature {
+  height: 380px;
+  text-align: center;
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 100px 0 0 0;
+}
+
+/* Footer */
+.footer {
+  background-color: #000000;
+}
+
+.footer h3 {
+  color: white;
+  font-weight: 250;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding-left: 0;
+  color: #0393FF;
+}
+
+.footer .container {
+  padding: 80px 30px;
+}
+
+/* Smaller Screens */
+@media (max-width: 960px) {
+
+  .header img {
+    height: 30px;
+    width: auto;
+  }
+
+.feature {
+	padding: 70px 0 0 0;
+}
